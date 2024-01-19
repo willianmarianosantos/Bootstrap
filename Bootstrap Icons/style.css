@@ -1,0 +1,50 @@
+
+
+.bi.bi-bell{
+font-size: 100px;
+color: green;
+margin: 20px;
+
+}
+
+.bi.bi-star{
+font-size: 150px;
+color: red;
+margin: 150px;
+
+}
+
+.bi.bi-upload{
+
+    font-size: 50px;
+    color: rgb(18, 146, 146);
+    margin: 150px;
+
+}
+
+.bi1.bi-upload{
+
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    margin: 150px;
+    border-radius:  10px;;
+    background-color: rgb(63, 158, 221);
+   
+   
+}
+
+
+.bi1.bi-upload:hover{
+
+background-color: rgb(14, 61, 83);
+
+
+}
+
+
+.bi1.bi-upload:active {
+
+    transform: translateY(3px);
+    box-shadow: 0 3px 0  rgb(41, 41, 39);
+
+}

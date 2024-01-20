@@ -1,0 +1,32 @@
+.container{
+
+    border: 5px dotted blue;
+    padding: 20px;
+    margin-bottom: 100px;
+    
+    }
+    
+    
+    .row{
+    
+    border: 5px solid purple;
+    height:  200px;
+    padding: 5px;
+    margin:  50px;
+    
+    }
+    
+    .col {
+    
+        border: 2px dashed red;
+        height: 50%;
+        margin: 0px;
+       
+
+    }
+
+
+.impar{ background-color: azure;}
+.impar{background-color: rgb(180, 177, 177);}
+
+

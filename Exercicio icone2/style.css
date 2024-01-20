@@ -1,0 +1,50 @@
+.col-12{
+    padding: 15px; 
+    margin: 15px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.col-12 i {
+
+    margin-right: 15px;
+    font-size: 30px;
+
+}
+
+
+
+
+.bell{
+    border: 1px solid green; /* Borda dentro do container */
+}
+
+.bell i{  
+    color: green; /* Muda a cor do icone por isso tem o i  */
+}
+
+
+
+
+
+.star{
+    border: 1px solid red;
+}
+
+.star i{ 
+    color: red; 
+}
+
+
+
+
+
+.upload{
+    border: 1px solid blue;
+}
+
+.upload i{
+    color: blue; 
+}

@@ -1,0 +1,177 @@
+/*      Em HTML é :   id        em CSS é :    # 
+        EM HTML é :   class     em CSS é :    .
+        ID é unico Class pode ter varios
+*/
+
+/* Estilos gerais  */
+
+body {
+  zoom: 80%;
+}
+
+* {
+  color: #25282e;
+}
+
+h2#btnimagem {
+  /* Uso de ID para um tipo de H2 especifico*/
+  font-size: 25px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  margin: 40px;
+  font-size: 25px;
+}
+
+.secundary-color {
+  color: #555;
+}
+
+.center-image2 {
+  background-size: cover;
+  background-position: 100%;
+}
+
+.center-image {
+  background-size: cover;
+  background-position: center;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: #25282e;
+  color: white;
+  padding: 1% 50px;
+  margin-top: 25px;
+  border-radius: 50px;
+}
+
+.btn:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+/* HEADER */
+
+#header {
+  text-align: center;
+  /* Alinha no centro */
+  padding: 0px;
+  /* Não deixa ficar muito proximo do começo da pagina */
+}
+
+#header p {
+  margin-bottom: 0px;
+}
+
+#logo-container {
+  display: flex;
+  justify-content: center;
+}
+
+#logo {
+  width: 700px;
+}
+
+/* HEADER PROCEDIMENTOS  mudar para a pagina do procedimentos depois*/
+
+#logo-procedimentos {
+  width: 700px;
+}
+
+/* HEADER script mudar para a pagina do procedimentos depois */
+
+#logo-script {
+  width: 700px;
+}
+
+/* NAVBAR */
+
+#navbar {
+  padding: 1px;
+  margin-top: 15px;
+}
+
+#navbar a {
+  width: auto;
+  color: #444;
+}
+
+#navbar a:hover {
+  color: #c1b696;
+}
+
+/* MAIN IMAGE  */
+
+.main-image {
+  height: 400px;
+  background-image: url(/img/teamplate\ de\ site\ gratis.png);
+  position: relative;
+  margin-top: 100px;
+  margin-top: 1px;
+  margin-bottom: 20px;
+}
+
+.main-image2 {
+  height: 400px;
+  background-image: url(/img/teamplate\ de\ site\ gratis.png);
+  position: relative;
+  margin-top: 1px;
+  margin-bottom: 20px;
+}
+
+.main-image-info {
+  background-color: #fff;
+  padding: 1%;
+  height: 35%;
+  position: absolute;
+  left: 40%;
+  opacity: 70%;
+  bottom: 10%;
+  border-radius: 10%;
+}
+
+/* Barra de pesquisa */
+
+.search-container {
+  max-width: 648px;
+  margin: auto;
+  width: 100%;
+}
+
+.search-box {
+  /* Controla as configurações do container */
+  position: relative;
+  width: 100%;
+  max-width: 648px;
+}
+
+.search-box .form-control {
+  /* Controla as configurações da caixa*/
+  padding-right: 40px;
+  /* Ajuste para evitar sobreposição do texto com a imagem */
+  height: 50px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.search-btn {
+  /* Classe do botão que no caso e a lupa*/
+  position: absolute;
+  right: 1;
+  top: 0;
+  height: 100%;
+  border: none;
+  background: none;
+  padding: 12px;
+}
+
+.search-icon {
+  /* Classe do icone da lupa */
+  width: 25px;
+  /* Ajuste conforme necessário */
+  height: 25px;
+  /* Ajuste conforme necessário */
+}
